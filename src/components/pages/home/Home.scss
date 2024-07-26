@@ -1,0 +1,32 @@
+.grid__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #ffffff;
+    padding: 10px;
+
+    .grid__wrapper--left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffffff;
+        font-size: 70px;
+        word-wrap: break-word; /* Tự động xuống dòng nếu chữ quá dài */
+        word-break: break-word; /* -- */
+        text-transform: uppercase;
+    }
+
+    .grid__wrapper--right {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: #fff6e3;
+        word-wrap: break-word; /* Tự động xuống dòng nếu chữ quá dài */
+        word-break: break-word; /* -- */
+        font-size: 25px;
+
+        a {
+            text-decoration: none;
+            color: #000000;
+        }
+    }
+}

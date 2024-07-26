@@ -1,8 +1,11 @@
+import ListOfContent from "../slides/One";
+import "./Home.scss";
+
 const Home = (props) => {
   return (
-    <div>
-      <h2>Home</h2>
-    </div>
+    <>
+      <ListOfContent />
+    </>
   );
 };
 
