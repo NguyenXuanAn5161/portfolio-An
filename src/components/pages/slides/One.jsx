@@ -1,39 +1,22 @@
-const ListOfContent = (props) => {
+import heroDevice from "../../../assets/avatar/hero-devices.svg";
+import mfAvatar from "../../../assets/avatar/mf-avatar.svg";
+
+const One = (props) => {
   return (
-    <div className="grid__wrapper">
-      <div className="grid__wrapper--left">
-        <p>list of contents</p>
+    <div className="wrapper__one">
+      <h1 className="title mb-2">Software Engineer, Fullstack Developer</h1>
+      <p className="subtitle mb-5">
+        I design and code functional, beautiful solutions with passion and
+        impact.
+      </p>
+      <div className="mb-5">
+        <img className="personImg" src={mfAvatar} alt="mfAvatar" />
       </div>
-      <div className="grid__wrapper--right">
-        <ol>
-          <li>
-            <a href="#">About Me</a>
-          </li>
-          <li>
-            <a href="#">vision</a>
-          </li>
-          <li>
-            <a href="#">Personal Skills</a>
-          </li>
-          <li>
-            <a href="#">Education</a>
-          </li>
-          <li>
-            <a href="#">Work Experience</a>
-          </li>
-          <li>
-            <a href="#">Project Portfolio</a>
-          </li>
-          <li>
-            <a href="#">Notable Project</a>
-          </li>
-          <li>
-            <a href="#">Contact</a>
-          </li>
-        </ol>
+      <div className="mb-5">
+        <img className="heroDevice" src={heroDevice} alt="heroDevice" />
       </div>
     </div>
   );
 };
 
-export default ListOfContent;
+export default One;

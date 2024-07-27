@@ -1,11 +1,11 @@
-import ListOfContent from "../slides/One";
+import One from "../slides/One";
 import "./Home.scss";
 
 const Home = (props) => {
   return (
-    <>
-      <ListOfContent />
-    </>
+    <div className="wrapper">
+      <One />
+    </div>
   );
 };
 
