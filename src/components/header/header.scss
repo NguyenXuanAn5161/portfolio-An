@@ -21,6 +21,11 @@ header {
   font-weight: bold;
 }
 
+.logo__link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
 nav a {
   color: white;
   text-decoration: none;
@@ -29,5 +34,5 @@ nav a {
 }
 
 nav a:hover {
-  text-decoration: underline;
+  color: aqua;
 }
