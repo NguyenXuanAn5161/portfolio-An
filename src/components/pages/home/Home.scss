@@ -8,7 +8,6 @@
 
     .wrapper__one {
         margin-top: 5rem;
-
         .title {
             font-size: 3rem !important;
             text-transform: capitalize;
@@ -29,6 +28,23 @@
 
         .heroDevice {
             width: 50rem;
+        }
+    }
+
+    .wrapper__two {
+        width: 100%;
+        background-color: #6e07f3;
+        color: #ffffff;
+        padding: 100px 200px;
+        padding-bottom: 200px;
+        border-radius: 10px;
+
+        h1 {
+            font-size: 32px;
+        }
+
+        p {
+            font-size: 20px;
         }
     }
 }
